@@ -5,6 +5,51 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Register Page</title>
+
+<style>
+    body {
+        background-color: #e6f2ff; /* soft light blue background */
+        font-family: Arial, sans-serif;
+    }
+    table {
+        background-color: #ffffff; /* white table background */
+        color: #003366; /* dark blue text */
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"],
+    input[type="date"],
+    input[type="submit"] {
+        color: #003366; /* text color */
+        background-color: #f9f9f9; /* input background */
+        border: 1px solid #007bff;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    input[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+    a {
+        color: #007bff; /* link color */
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover {
+        color: #ff4500; /* hover color */
+        text-decoration: underline;
+    }
+</style>
+
+
 </head>
 <body>
 <h1>Enter the below details for register</h1>
